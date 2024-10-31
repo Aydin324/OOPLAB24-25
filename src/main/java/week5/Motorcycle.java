@@ -6,11 +6,11 @@ public class Motorcycle extends Vehicle {
     //constructors
     public Motorcycle(String modelName){
         super(modelName);
-        lifespan = expectedLifespan();
+        lifespan = expectedLifespan()-mileage;
     }
     public Motorcycle(String modelName, int mileage, int health){
         super(modelName, mileage, health);
-        lifespan = expectedLifespan();
+        lifespan = expectedLifespan()-mileage;
     }
 
     //overriding abstract class methods
