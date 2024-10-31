@@ -6,11 +6,11 @@ public class Truck extends Vehicle implements Repairable{
     //constructors
     public Truck(String modelName){
         super(modelName);
-        lifespan = expectedLifespan();
+        lifespan = expectedLifespan()-mileage;
     }
     public Truck(String modelName, int mileage, int health){
         super(modelName, mileage, health);
-        lifespan = expectedLifespan();
+        lifespan = expectedLifespan()-mileage;
     }
 
     //Implement method from interface and abstract class

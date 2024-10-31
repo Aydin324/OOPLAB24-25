@@ -13,6 +13,18 @@ public class Main {
         for(Vehicle vehicle : vehicles){
             System.out.println(vehicle.service());
             vehicle.simulateYear();
+            if(vehicle instanceof Car){
+                Car car = (Car)vehicle;
+                car.drive(5000);
+            }
+            else if(vehicle instanceof Truck){
+                Truck truck = (Truck)vehicle;
+                truck.haul(6000);
+            }
+            else {
+                Motorcycle motorcycle = (Motorcycle)vehicle;
+                motorcycle.race(300);
+            }
             System.out.println(vehicle + "\n\n");
         }
     }

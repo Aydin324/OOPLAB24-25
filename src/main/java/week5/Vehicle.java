@@ -51,10 +51,24 @@ public abstract class Vehicle {
     }
     public void simulateYear(){
         if(lifespan < 0.5*expectedLifespan()){
-            health += 5;
+            health -= 5;
         }
         else {
             lifespan = calculateRemainingLifespan();
+        }
+    }
+    public void preformMaintenance(Vehicle vehicle){
+        if(vehicle instanceof Car){
+            Car car = (Car)vehicle;
+            car.drive(5000);
+        }
+        else if(vehicle instanceof Truck){
+            Truck truck = (Truck)vehicle;
+            truck.haul(6000);
+        }
+        else {
+            Motorcycle motorcycle = (Motorcycle)vehicle;
+            motorcycle.race(300);
         }
     }
 
