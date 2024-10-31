@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc2423b-6fd3-4e7a-b5dd-f4b041fbf20d" name="Changes" comment="Week 3 lab tasks">
+    <list default="true" id="6fc2423b-6fd3-4e7a-b5dd-f4b041fbf20d" name="Changes" comment="Week 4 lab tasks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,40 +59,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.People.executor": "Run",
-    "Application.main.executor": "Run",
-    "Application.practice.executor": "Run",
-    "Application.task1.executor": "Run",
-    "Application.task10.executor": "Run",
-    "Application.task2.executor": "Run",
-    "Application.task3.executor": "Run",
-    "Application.task4.executor": "Run",
-    "Application.task5.executor": "Run",
-    "Application.task6.executor": "Run",
-    "Application.task7.executor": "Run",
-    "Application.task8.executor": "Run",
-    "Application.task9.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/OOPLAB24-25/src/main/java/week4/task3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Projects/OOPLAB24-25/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.People.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task9.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/OOPLAB24-25/src/main/java/week4/task3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Projects/OOPLAB24-25/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\OOPLAB24-25\src\main\java\week4\task3" />
@@ -118,7 +120,9 @@
       <workItem from="1729101606293" duration="11414000" />
       <workItem from="1729269578264" duration="2404000" />
       <workItem from="1729272062348" duration="2443000" />
-      <workItem from="1729760790835" duration="3450000" />
+      <workItem from="1729760790835" duration="3512000" />
+      <workItem from="1730200025802" duration="2192000" />
+      <workItem from="1730320227590" duration="7591000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <option name="closed" value="true" />
@@ -152,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729274108207</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Week 4 lab tasks">
+      <option name="closed" value="true" />
+      <created>1729765426383</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729765426383</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +186,7 @@
     <MESSAGE value="Week 1 lab tasks" />
     <MESSAGE value="Week 2 lab tasks" />
     <MESSAGE value="Week 3 lab tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 3 lab tasks" />
+    <MESSAGE value="Week 4 lab tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 4 lab tasks" />
   </component>
 </project>
