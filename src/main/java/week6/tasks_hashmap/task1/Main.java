@@ -1,4 +1,4 @@
-package week6.tasks_hashmap;
+package week6.tasks_hashmap.task1;
 
 import java.util.HashMap;
 

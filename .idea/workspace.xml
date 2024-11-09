@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc2423b-6fd3-4e7a-b5dd-f4b041fbf20d" name="Changes" comment="Week 5 lab tasks - Finishing ¸touches">
+    <list default="true" id="6fc2423b-6fd3-4e7a-b5dd-f4b041fbf20d" name="Changes" comment="Week 5 lab tasks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week6/task7_nightSky/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6/task7_nightSky/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week6/task7_nightSky/NightSky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6/task7_nightSky/NightSky.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week6/tasks_hashmap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6/tasks_hashmap/task1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +77,7 @@
     "Application.task7.executor": "Run",
     "Application.task8.executor": "Run",
     "Application.task9.executor": "Run",
+    "Application.tasks.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -123,6 +127,7 @@
       <workItem from="1730200025802" duration="2192000" />
       <workItem from="1730320227590" duration="8685000" />
       <workItem from="1730974273617" duration="7635000" />
+      <workItem from="1731087409781" duration="8349000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <option name="closed" value="true" />
@@ -188,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730381219059</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Week 5 lab tasks">
+      <option name="closed" value="true" />
+      <created>1731087441050</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731087441050</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,8 +224,8 @@
     <MESSAGE value="Week 2 lab tasks" />
     <MESSAGE value="Week 3 lab tasks" />
     <MESSAGE value="Week 4 lab tasks" />
-    <MESSAGE value="Week 5 lab tasks" />
     <MESSAGE value="Week 5 lab tasks - Finishing ¸touches" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 5 lab tasks - Finishing ¸touches" />
+    <MESSAGE value="Week 5 lab tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 5 lab tasks" />
   </component>
 </project>

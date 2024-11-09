@@ -5,6 +5,7 @@ import java.util.Random;
 public class NightSky {
     private double density;
     private int width, height;
+    private int starsInLastPrint = 0;
 
     public NightSky(double density){
         this.density = density;
@@ -29,14 +30,24 @@ public class NightSky {
 
         for(int i=0; i<this.width; i++){
             generatedNumber = rand.nextInt(100)+1;
-            if(generatedNumber <= probability)
+            if(generatedNumber <= probability){
                 System.out.print("*");
-
+                this.starsInLastPrint++;
+            }
             else
                 System.out.print(" ");
         }
+        System.out.println();
+    }
 
+    public void print(){
+        this.starsInLastPrint = 0;
+        for(int i=0; i<this.height; i++){
+            printLine();
+        }
+    }
 
-
+    public int starsInLastPrint(){
+        return this.starsInLastPrint;
     }
 }
