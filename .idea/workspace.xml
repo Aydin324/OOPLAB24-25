@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc2423b-6fd3-4e7a-b5dd-f4b041fbf20d" name="Changes" comment="Week 5 lab tasks">
+    <list default="true" id="6fc2423b-6fd3-4e7a-b5dd-f4b041fbf20d" name="Changes" comment="Week 7 lab tasks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +17,10 @@
       <list>
         <option value="package-info" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Exception" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -128,7 +129,9 @@
       <workItem from="1730974273617" duration="7635000" />
       <workItem from="1731087409781" duration="8878000" />
       <workItem from="1731409763148" duration="7145000" />
-      <workItem from="1731794895941" duration="4551000" />
+      <workItem from="1731794895941" duration="4835000" />
+      <workItem from="1731863174999" duration="1046000" />
+      <workItem from="1731927403421" duration="2394000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <option name="closed" value="true" />
@@ -202,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731087441050</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Week 7 lab tasks">
+      <option name="closed" value="true" />
+      <created>1731800405437</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731800405437</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +238,7 @@
     <MESSAGE value="Week 4 lab tasks" />
     <MESSAGE value="Week 5 lab tasks - Finishing ¸touches" />
     <MESSAGE value="Week 5 lab tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 5 lab tasks" />
+    <MESSAGE value="Week 7 lab tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 7 lab tasks" />
   </component>
 </project>
