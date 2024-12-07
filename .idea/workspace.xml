@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc2423b-6fd3-4e7a-b5dd-f4b041fbf20d" name="Changes" comment="Week 7 lab tasks">
+    <list default="true" id="6fc2423b-6fd3-4e7a-b5dd-f4b041fbf20d" name="Changes" comment="Week 7 lab tasks - finalized">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +16,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Enum" />
-        <option value="Interface" />
         <option value="Exception" />
         <option value="Record" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -48,7 +49,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -89,7 +90,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/Projects/OOPLAB24-25/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
@@ -131,7 +132,10 @@
       <workItem from="1731409763148" duration="7145000" />
       <workItem from="1731794895941" duration="4835000" />
       <workItem from="1731863174999" duration="1046000" />
-      <workItem from="1731927403421" duration="2394000" />
+      <workItem from="1731927403421" duration="6228000" />
+      <workItem from="1733395047135" duration="2873000" />
+      <workItem from="1733479350351" duration="4448000" />
+      <workItem from="1733526006530" duration="4007000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <option name="closed" value="true" />
@@ -213,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731800405437</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Week 7 lab tasks - finalized">
+      <option name="closed" value="true" />
+      <created>1731930479076</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731930479076</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +251,7 @@
     <MESSAGE value="Week 5 lab tasks - Finishing ¸touches" />
     <MESSAGE value="Week 5 lab tasks" />
     <MESSAGE value="Week 7 lab tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 7 lab tasks" />
+    <MESSAGE value="Week 7 lab tasks - finalized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 7 lab tasks - finalized" />
   </component>
 </project>
