@@ -14,11 +14,13 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+import static java.lang.Double.parseDouble;
 import static java.lang.Integer.parseInt;
 
 public class StudentSystem {
     private List<Student> students;
 
+    //constructors
     public StudentSystem(String filename) {
         List<Student> tempStudents = new ArrayList<>(readStudents(filename));
         try {
@@ -30,6 +32,7 @@ public class StudentSystem {
     }
 
     public StudentSystem(List<Student> students){
+        if(students.isEmpty()) throw new EmptyStudentListException("List of students is empty.");
         this.students = students;
     }
 
@@ -42,7 +45,7 @@ public class StudentSystem {
             if(studentList.isEmpty()) throw new EmptyStudentListException("File is empty!");
             for(String s : studentList) {
                 String[] split = s.split(",");
-                readStudents.add(new Student(parseInt(split[0]), split[1], split[2], split[3], parseInt(split[4])));
+                readStudents.add(new Student(parseInt(split[0]), split[1], split[2], split[3], parseDouble(split[4])));
             }
             return readStudents;
         } catch (IOException e) {
@@ -78,5 +81,10 @@ public class StudentSystem {
                 throw new InvalidStudentDataException(s.getName() + " has an invalid GPA!");
             }
         }
+    }
+
+    //getter
+    public List<Student> getStudents() {
+        return students;
     }
 }

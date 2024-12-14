@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc2423b-6fd3-4e7a-b5dd-f4b041fbf20d" name="Changes" comment="Week 10 lab tasks">
+    <list default="true" id="6fc2423b-6fd3-4e7a-b5dd-f4b041fbf20d" name="Changes" comment="Week 11 lab task without JUnit testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week11/student/StudentSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week11/student/StudentSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -21,9 +24,9 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Exception" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
-        <option value="Exception" />
       </list>
     </option>
   </component>
@@ -82,6 +85,10 @@
     "Application.task9.executor": "Run",
     "Application.tasks.executor": "Run",
     "JUnit.MainTestExample.executor": "Run",
+    "JUnit.StudentSystemTest.executor": "Coverage",
+    "JUnit.StudentSystemTest.testSameStudent.executor": "Coverage",
+    "JUnit.StudentTest.executor": "Coverage",
+    "JUnit.student in OOPLAB24-25.executor": "Coverage",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -98,7 +105,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "coverage",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -115,10 +122,11 @@
       <recent name="D:\Projects\OOPLAB24-25\src\main\java\week11\resources" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="week11.student" />
       <recent name="practice.practice2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.student in OOPLAB24-25">
     <configuration name="MainTestExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOPLAB24-25" />
       <extension name="coverage">
@@ -134,8 +142,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOPLAB24-25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week11.student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week11.student" />
+      <option name="MAIN_CLASS_NAME" value="week11.student.StudentSystemTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentSystemTest.testSameStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOPLAB24-25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week11.student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week11.student" />
+      <option name="MAIN_CLASS_NAME" value="week11.student.StudentSystemTest" />
+      <option name="METHOD_NAME" value="testSameStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOPLAB24-25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week11.student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week11.student" />
+      <option name="MAIN_CLASS_NAME" value="week11.student.StudentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="student in OOPLAB24-25" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOPLAB24-25" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/week11/student" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.student in OOPLAB24-25" />
+        <item itemvalue="JUnit.StudentTest" />
+        <item itemvalue="JUnit.StudentSystemTest" />
+        <item itemvalue="JUnit.StudentSystemTest.testSameStudent" />
         <item itemvalue="JUnit.MainTestExample" />
       </list>
     </recent_temporary>
@@ -173,7 +239,8 @@
       <workItem from="1733395047135" duration="2873000" />
       <workItem from="1733479350351" duration="4448000" />
       <workItem from="1733526006530" duration="4377000" />
-      <workItem from="1733829018252" duration="9177000" />
+      <workItem from="1733829018252" duration="9427000" />
+      <workItem from="1733997858826" duration="9826000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <option name="closed" value="true" />
@@ -271,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733530404675</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Week 11 lab task without JUnit testing">
+      <option name="closed" value="true" />
+      <created>1733917669902</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733917669902</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +374,19 @@
     <MESSAGE value="Week 7 lab tasks" />
     <MESSAGE value="Week 7 lab tasks - finalized" />
     <MESSAGE value="Week 10 lab tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 10 lab tasks" />
+    <MESSAGE value="Week 11 lab task without JUnit testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 11 lab task without JUnit testing" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/OOPLAB24_25$student_in_OOPLAB24_25.ic" NAME="student in OOPLAB24-25 Coverage Results" MODIFIED="1734178153697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/OOPLAB24_25$StudentSystemTest_testSameStudent.ic" NAME="StudentSystemTest.testSameStudent Coverage Results" MODIFIED="1734170335978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>week11.student.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/OOPLAB24_25$StudentSystemTest.ic" NAME="StudentSystemTest Coverage Results" MODIFIED="1734177607110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>week11.student.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/OOPLAB24_25$StudentTest.ic" NAME="StudentTest Coverage Results" MODIFIED="1734177803405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>week11.student.*</FILTER>
+    </SUITE>
   </component>
 </project>
