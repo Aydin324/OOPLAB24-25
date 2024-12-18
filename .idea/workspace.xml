@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc2423b-6fd3-4e7a-b5dd-f4b041fbf20d" name="Changes" comment="Week 11 lab task without JUnit testing">
+    <list default="true" id="6fc2423b-6fd3-4e7a-b5dd-f4b041fbf20d" name="Changes" comment="Week 11 lab task - finalized">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week11/student/StudentSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week11/student/StudentSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +23,8 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="AnnotationType" />
-        <option value="Exception" />
         <option value="JUnit5 Test Class" />
+        <option value="Exception" />
         <option value="Class" />
       </list>
     </option>
@@ -88,7 +87,8 @@
     "JUnit.StudentSystemTest.executor": "Coverage",
     "JUnit.StudentSystemTest.testSameStudent.executor": "Coverage",
     "JUnit.StudentTest.executor": "Coverage",
-    "JUnit.student in OOPLAB24-25.executor": "Coverage",
+    "JUnit.UserTest.executor": "Run",
+    "JUnit.student in OOPLAB24-25.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -126,7 +126,7 @@
       <recent name="practice.practice2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.student in OOPLAB24-25">
+  <component name="RunManager">
     <configuration name="MainTestExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOPLAB24-25" />
       <extension name="coverage">
@@ -240,7 +240,8 @@
       <workItem from="1733479350351" duration="4448000" />
       <workItem from="1733526006530" duration="4377000" />
       <workItem from="1733829018252" duration="9427000" />
-      <workItem from="1733997858826" duration="9826000" />
+      <workItem from="1733997858826" duration="10774000" />
+      <workItem from="1734555070303" duration="2531000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <option name="closed" value="true" />
@@ -346,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733917669902</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Week 11 lab task - finalized">
+      <option name="closed" value="true" />
+      <created>1734193789453</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1734193789453</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +384,8 @@
     <MESSAGE value="Week 7 lab tasks - finalized" />
     <MESSAGE value="Week 10 lab tasks" />
     <MESSAGE value="Week 11 lab task without JUnit testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 11 lab task without JUnit testing" />
+    <MESSAGE value="Week 11 lab task - finalized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 11 lab task - finalized" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OOPLAB24_25$student_in_OOPLAB24_25.ic" NAME="student in OOPLAB24-25 Coverage Results" MODIFIED="1734178153697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
