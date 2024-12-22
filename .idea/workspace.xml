@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc2423b-6fd3-4e7a-b5dd-f4b041fbf20d" name="Changes" comment="Week 11 lab task - finalized">
+    <list default="true" id="6fc2423b-6fd3-4e7a-b5dd-f4b041fbf20d" name="Changes" comment="Quiz #4 practice task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,49 +66,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.People.executor": "Run",
-    "Application.main.executor": "Run",
-    "Application.practice.executor": "Run",
-    "Application.task1.executor": "Run",
-    "Application.task10.executor": "Run",
-    "Application.task2.executor": "Run",
-    "Application.task3.executor": "Run",
-    "Application.task4.executor": "Run",
-    "Application.task5.executor": "Run",
-    "Application.task6.executor": "Run",
-    "Application.task7.executor": "Run",
-    "Application.task8.executor": "Run",
-    "Application.task9.executor": "Run",
-    "Application.tasks.executor": "Run",
-    "JUnit.MainTestExample.executor": "Run",
-    "JUnit.StudentSystemTest.executor": "Coverage",
-    "JUnit.StudentSystemTest.testSameStudent.executor": "Coverage",
-    "JUnit.StudentTest.executor": "Coverage",
-    "JUnit.UserTest.executor": "Run",
-    "JUnit.student in OOPLAB24-25.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/OOPLAB24-25/src/main/java/week4/task3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Projects/OOPLAB24-25/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "coverage",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ChatServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.People.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tasks.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTestExample.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StudentSystemTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.StudentSystemTest.testSameStudent.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.StudentTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.UserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.student in OOPLAB24-25.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/OOPLAB24-25/src/main/java/week4/task3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Projects/OOPLAB24-25/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\OOPLAB24-25\src\main\java\week4\task3" />
@@ -126,7 +127,7 @@
       <recent name="practice.practice2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MainTestExample">
     <configuration name="MainTestExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOPLAB24-25" />
       <extension name="coverage">
@@ -241,7 +242,9 @@
       <workItem from="1733526006530" duration="4377000" />
       <workItem from="1733829018252" duration="9427000" />
       <workItem from="1733997858826" duration="10774000" />
-      <workItem from="1734555070303" duration="2531000" />
+      <workItem from="1734555070303" duration="4411000" />
+      <workItem from="1734724556391" duration="7377000" />
+      <workItem from="1734890486690" duration="1125000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <option name="closed" value="true" />
@@ -355,7 +358,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734193789453</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Quiz #4 practice task">
+      <option name="closed" value="true" />
+      <created>1734558148455</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1734558148455</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +396,8 @@
     <MESSAGE value="Week 10 lab tasks" />
     <MESSAGE value="Week 11 lab task without JUnit testing" />
     <MESSAGE value="Week 11 lab task - finalized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 11 lab task - finalized" />
+    <MESSAGE value="Quiz #4 practice task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quiz #4 practice task" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OOPLAB24_25$student_in_OOPLAB24_25.ic" NAME="student in OOPLAB24-25 Coverage Results" MODIFIED="1734178153697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
