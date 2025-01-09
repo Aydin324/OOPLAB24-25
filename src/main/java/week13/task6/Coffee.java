@@ -4,29 +4,114 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Coffee {
-    private int size;
     private String type;
+    private String size;
     private List<String> toppings;
 
-    public Coffee(){
-        this.toppings = new ArrayList<String>();
-    }
-
-    public void setSize(int size){
-        this.size = size;
-    }
-    public void setType(String type){
-        this.type = type;
-    }
-    public void setToppings(List<String> toppings){
-        this.toppings = toppings;
-    }
-    public void addTopping(String topping){
-        this.toppings.add(topping);
+    public Coffee(CoffeeBuilder builder) {
+        this.type = builder.getType();
+        this.size = builder.getSize();
+        this.toppings = builder.getToppings();
     }
 
     @Override
     public String toString(){
-        return this.type + " " + this.size + " " + this.toppings;
+        return type + " " + size + " " + toppings;
+    }
+
+    public static class EspressoBuilder implements CoffeeBuilder{
+        private String type;
+        private String size;
+        private List<String> toppings;
+
+        @Override
+        public CoffeeBuilder buildType(){
+            type = "espresso";
+            return this;
+        }
+        @Override
+        public CoffeeBuilder buildSize(String size){
+            this.size = size;
+            return this;
+        }
+        @Override
+        public CoffeeBuilder buildToppings(List<String> toppings){
+            this.toppings = toppings;
+            return this;
+        }
+        @Override
+        public Coffee build(){
+            return new Coffee(this);
+        }
+        @Override
+        public String getType() {return type;}
+        @Override
+        public String getSize() {return size;}
+        @Override
+        public List<String> getToppings() {return toppings;}
+    }
+
+    public static class LatteBuilder implements CoffeeBuilder{
+        private String type;
+        private String size;
+        private List<String> toppings;
+
+        @Override
+        public CoffeeBuilder buildType(){
+            type = "latte";
+            return this;
+        }
+        @Override
+        public CoffeeBuilder buildSize(String size){
+            this.size = size;
+            return this;
+        }
+        @Override
+        public CoffeeBuilder buildToppings(List<String> toppings){
+            this.toppings = toppings;
+            return this;
+        }
+        @Override
+        public Coffee build(){
+            return new Coffee(this);
+        }
+        @Override
+        public String getType() {return type;}
+        @Override
+        public String getSize() {return size;}
+        @Override
+        public List<String> getToppings() {return toppings;}
+    }
+
+    public static class CapuccinoBuilder implements CoffeeBuilder{
+        private String type;
+        private String size;
+        private List<String> toppings;
+
+        @Override
+        public CoffeeBuilder buildType(){
+            type = "capuccino";
+            return this;
+        }
+        @Override
+        public CoffeeBuilder buildSize(String size){
+            this.size = size;
+            return this;
+        }
+        @Override
+        public CoffeeBuilder buildToppings(List<String> toppings){
+            this.toppings = toppings;
+            return this;
+        }
+        @Override
+        public Coffee build(){
+            return new Coffee(this);
+        }
+        @Override
+        public String getType() {return type;}
+        @Override
+        public String getSize() {return size;}
+        @Override
+        public List<String> getToppings() {return toppings;}
     }
 }
